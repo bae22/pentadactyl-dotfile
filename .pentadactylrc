@@ -1,0 +1,50 @@
+"1.0b6 (created: 2011/03/09 09:25:18)
+
+loadplugins '\.(js|penta)$'
+group user
+
+set guioptions=CsTnr
+
+" highlighted search matches
+set hlfind
+
+" Disable strictfocus to avoid Google Reader issue
+" set nostrictfocus
+set strictfocus=*:laissez-faire
+
+"" Remap some keys
+noremap <C-l> <C-v><C-l>
+noremap <C-v> <C-v><C-v>
+noremap <C-c> <C-v><C-c>
+noremap <C-b> <C-v><C-b>
+inoremap <C-l> <C-v><C-l>
+inoremap <C-v> <C-v><C-v>
+inoremap <C-c> <C-v><C-c>
+inoremap <C-b> <C-v><C-b>
+cnoremap <C-l> <C-v><C-l>
+cnoremap <C-v> <C-v><C-v>
+cnoremap <C-c> <C-v><C-c>
+cnoremap <C-b> <C-v><C-b>
+
+"" Tab moving keys
+map <C-S-Right> :tabmove! +1<CR>
+map <C-S-Left> :tabmove! -1<CR>
+
+"{{{ PassKeys
+set passkeys+='mail\.google\.com':c/jkhnpovuelxsfra#`[]z?*nrtgidIU+-=<Tab><Return>
+set passkeys+='mail\.google\.com/tasks/canvas':<Tab><S-Tab><Return>
+set passkeys+='groups\.google\.com/forum':glmo<Enter>j<S-j>k<S-k>n<S-n>p<S-p>ufh<S-a>rc/?<Esc><Return>
+set passkeys+='google\.com/reader':jkvnpbumoaAXNOVPJK?gehtl<Return>
+set passkeys+='plus\.google\.com':jk<Return><Tab>
+set passkeys+='twitter\.com':jk<Space>/.frtmn?ghrpu<Return>
+set passkeys+='rememberthemilk\.com/home/f':trsjkdhyucpgfinalez1234<Return>
+set passkeys+='www\.google\.com/calendar':dwmxajkcnqetp?<Del>s12345<Return>
+set passkeys+='springpadit\.com/springpad':?hgmfntljk/c<Return>
+set passkeys+='toodledo\.com/':?fn*aitzwjklmocdgxpsheybr123456789<Esc><Return>
+set passkeys+='duckduckgo\.com/':\!l'o<C-Return>jkh<Esc>\'v/rs1<Return>
+set passkeys+='github\.com/':s?tl<Return>
+set passkeys+='facebook\.com':<Left><Right>
+set passkeys+='flickr\.com':lf<Left><Right>
+"}}}
+
+" vim: set ft=pentadactyl:
