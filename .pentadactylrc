@@ -45,6 +45,7 @@ set passkeys+='duckduckgo\.com/':\!l'o<C-Return>jkh<Esc>\'v/rs1<Return>
 set passkeys+='github\.com/':s?tl<Return>
 set passkeys+='facebook\.com':<Left><Right>
 set passkeys+='flickr\.com':lf<Left><Right>
+set passkeys+='www\.feedly\.com':gichmatfFCkdplSsnb1234567890/r?jovVMxDe<Return><Esc>
 "}}}
 
 " vim: set ft=pentadactyl:
