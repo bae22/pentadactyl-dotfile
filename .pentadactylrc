@@ -34,6 +34,10 @@ map <C-S-Left> :tabmove! -1<CR>
 nmap <C-A-d> :pinboard<CR>
 nmap <C-A-s> :pinboardsearch 
 
+"" Keyboard shortcuts passed straight to Firefox
+"New tab
+map <C-t> <Pass>
+
 "{{{ PassKeys
 set passkeys+='mail\.google\.com':c/jkhnpovuelxsfra#`[]z?*nrtgidIU+-=<Tab><Return>
 set passkeys+='mail\.google\.com/tasks/canvas':<Tab><S-Tab><Return>
