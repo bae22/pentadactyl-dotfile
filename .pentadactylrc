@@ -60,6 +60,7 @@ set passkeys+='pinboard\.in':?bjkganstu<Tab>
 
 "" Set full bypass for some sites
 autocmd LocationChange mail.google.com :normal! <C-z>
+autocmd LocationChange www.evernote.com :normal! <C-z>
 
 " vim: set ft=pentadactyl:
 
